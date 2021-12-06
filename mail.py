@@ -4,9 +4,9 @@ import random
 
 def send_email(email):
     port = 465
-    password = 'template_mail2021'
+    password = '....'
 
-    sender_email = 'geek23122000@gmail.com'
+    sender_email = '....@gmail.com'
     receiver_email = email
     verification_code = random.randint(1000, 10000)
     message = """\
