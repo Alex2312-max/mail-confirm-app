@@ -1,0 +1,29 @@
+{% extends 'base.html' %}
+
+{% block head %}
+<div style="text-align: center;">
+    <h1> Registration </h1>
+</div>
+{% endblock %}
+
+{% block body %}
+
+<form style="text-align:center; font-size: 20px; color: #777777;" method="POST">
+    <div>
+        <label for="user_name">First name:</label>
+        <input type="text" id="user_name" name="user_name"><br><br>
+    </div>
+    <div>
+        <label for="last_name">Last name:</label>
+        <input type="text" id="last_name" name="last_name"><br><br>
+    </div>
+    <div>
+        <label for="email">Email:</label>
+        <input type="text" id="email" name="email"><br><br>
+    </div>
+
+    <input type="submit" value="Submit">
+
+</form>
+
+{% endblock %}
